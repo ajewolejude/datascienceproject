@@ -8,7 +8,7 @@ print (arr)
 
 arr2 = arr[3:6]
 
-arr2[:] = 29 
+arr2[:] = 29
 
 print (arr2)
 print (arr)
