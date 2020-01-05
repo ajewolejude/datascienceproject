@@ -4,7 +4,7 @@ arr2d = np.array([[9,8,7],[6,5,4],[3,2,1]])
 print (arr2d)
 print (arr2d[1][2])
 
-#slices of 2d array
+#slices of 2d arrays
 
 slice1 = arr2d[0:3,0:3]
 print (slice1)
