@@ -15,7 +15,7 @@ print(new_saved_array)
 array_1 = np.arange(10)
 array_2 = np.arange(20)
 
-np.savez('saved_archive.npz',x = array_1,y = array_2)
+np.savez('saved_archive.npz', x = array_1, y = array_2)
 
 load_archive = np.load('saved_archive.npz')
 
