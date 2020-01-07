@@ -15,12 +15,9 @@ s = Series(data_array)
 
 #custom index
 s = Series(data_array,index=[100,101,102])
-#print s
 s= Series(data_array,index=['index1','index2','index3'])
-#print s
 
 
-#using real life ex
 
 revenue = Series([20,80,40,35],index=['ola','uber','grab','gojek'])
 
@@ -29,7 +26,7 @@ print (revenue[revenue>=35])
 
 #use boolean conditions
 
-#print 'lyft' in revenue
+print ('here' in revenue)
 
 revenue_dict = revenue.to_dict()
 print (revenue_dict)
